@@ -62,3 +62,21 @@
    height: 50px;
    background-color: #aaaaaa;
  }
+ 
+ @media screen and (max-width:768px) {
+  
+  main {
+   width: 100%;
+   flex-direction: column;
+   align-items: center;
+  }
+  
+  .box {
+   width: 90%;
+   margin: 0 0 20px 0;
+  }
+  
+  .box:last-child {
+   margin: 0;
+  }
+ }
